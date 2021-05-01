@@ -21,9 +21,9 @@ slides.forEach(function(slide, i) {
 
 var currentSlide = slides[0];
 
-// var autoPlay = TweenLite.delayedCall(slideDelay, setSlide);
+var autoPlay = TweenLite.delayedCall(slideDelay, setSlide);
 
-// TweenLite.set(".works", { autoAlpha: 1 });
+TweenLite.set(".works", { autoAlpha: 1 });
 
 console.log("SLIDES", slides);
 
